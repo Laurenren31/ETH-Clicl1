@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/container/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -18,8 +19,8 @@ module.exports = {
       },
       fontSize: {
         "3xl": "1.68rem",
-        "5xl": "2rem",
-        "6xl": "3rem",
+        "4xl": "2rem",
+        "5xl": "3rem",
       },
     },
   },

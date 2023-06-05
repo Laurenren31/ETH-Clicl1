@@ -14,7 +14,11 @@ const NumberPool = (props: any) => {
     );
   }
 
-  return <div className="buttonContainer">{buttonList}</div>;
+  return (
+    <div className="grid grid-cols-10 relative z-0 bottom-[692px]">
+      {buttonList}
+    </div>
+  );
 };
 
 export default NumberPool;
